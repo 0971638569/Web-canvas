@@ -9,7 +9,7 @@
         var p2 = cp[1].mul(2 * t * (1 - t));
         var p3 = cp[2].mul(t * t); 
         return p1.add(p2).add(p3);
-    }  
+    }
 
     function inheart(x, y, r) {
         // x^2+(y-(x^2)^(1/3))^2 = 1
@@ -22,6 +22,7 @@
         this.x = x || 0;
         this.y = y || 0;
     }
+    
     Point.prototype = {
         clone: function() {
             return new Point(this.x, this.y);
