@@ -1,0 +1,12 @@
+{
+    "version": "0.1",
+    "name": "web-canvas",
+    "scripts": {
+        "start-develop": "node /main.js develop",
+        "start-staging": "node /main.js staging",
+        "start-produce": "node /main.js produce"
+    },
+    "dependencies": {
+        "js-yaml": "^4.1.0"
+    }
+}

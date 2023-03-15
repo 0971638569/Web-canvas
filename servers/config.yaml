@@ -1,0 +1,8 @@
+port:
+  develop: 8000
+  staging: 8001
+  produce: 8002
+host:
+  develop: 'localhost'
+  staging: 'localhost'
+  produce: 'localhost'
