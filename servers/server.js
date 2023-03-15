@@ -5,7 +5,7 @@ const server = {
     handle: function (req, res) {
         res.setHeader('Content-Type', 'application/json');
         res.writeHead(200);
-        res.end("OK");
+        res.end(req.url);
     }
 }
 
